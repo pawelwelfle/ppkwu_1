@@ -3,6 +3,10 @@ package com.ppkwu.task1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author pawel.welfle
+ */
+
 @SpringBootApplication
 public class Task1Application {
 
