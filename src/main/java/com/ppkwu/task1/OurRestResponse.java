@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class OurRestResponse {
 
     @RequestMapping("/reverse")
-    public String revString(String word) {
-        word = "Test";
+    public String revString() {
+        String word = "Test";
         return word;
     }
 }
