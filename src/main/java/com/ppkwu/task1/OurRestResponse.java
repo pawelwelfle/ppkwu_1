@@ -1,6 +1,7 @@
 package com.ppkwu.task1;
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -9,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OurRestResponse {
 
-    @RequestMapping("/reverse")
+    @GetMapping("/reverse")
+    @ResponseBody
     public String revString() {
         String word = "Test";
         return word;
