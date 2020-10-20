@@ -11,6 +11,7 @@ public class OurRestResponse {
 
     @RequestMapping("/reverse")
     public String revString(String word) {
+        word = "Test";
         return word;
     }
 }
